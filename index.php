@@ -110,8 +110,8 @@
 
 
                         if (isset($_POST['query'])) {
-                            echo 'value='. 
-                            htmlspecialchars($_POST['query'], ENT_QUOTES);
+                            echo 'value="'. 
+                            htmlspecialchars($_POST['query'], ENT_QUOTES) . '"';
                         }
 
                     ?>
