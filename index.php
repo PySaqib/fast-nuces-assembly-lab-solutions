@@ -104,7 +104,7 @@
 
                 <div class="col" id="searchInput">
                 
-                    <input type="text" name="query" id="query" placeholder="program to print hello world"
+                    <input type="text" name="query" id="query" placeholder="program to print hello world" required="true"
                     
                     <?php
 
@@ -156,6 +156,8 @@
                     // $count = mysqli_num_rows($res);
 
                     // $termFound = ($count != 0);
+
+                    $termFound = false;
                     
                     if ($termFound) {
 
