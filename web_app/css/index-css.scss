@@ -117,6 +117,15 @@ body {
 }
 
 
+#searchResult {
+
+    width: 80vw;
+    max-width: 800px;
+    padding: 2vh 2vw;
+    background-color: white;
+    
+}
+
 // Animation for hovering.
 
 @keyframes popUp {

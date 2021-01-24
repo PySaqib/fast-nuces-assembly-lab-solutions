@@ -105,6 +105,13 @@ body {
   background-color: #1a1a1a;
 }
 
+#searchResult {
+  width: 80vw;
+  max-width: 800px;
+  padding: 2vh 2vw;
+  background-color: white;
+}
+
 @-webkit-keyframes popUp {
   0% {
     -webkit-transform: translateY(0px);

@@ -130,6 +130,44 @@
 
             </div>
 
+            <?php
+
+
+                // Search handling logic.
+
+                if (isset($_POST['query'])) {
+
+                    $termFound = false;
+                    
+                    if ($termFound) {
+
+
+                        
+
+
+                    }
+                    else {
+
+
+                    echo    '<div class="row" id="searchResult">
+                        
+                                <div class="col">
+                                        
+                                    <p id="result">No search results found.</p>
+                
+                                </div>
+        
+                            </div>';
+
+
+                    }
+
+
+                }
+
+
+            ?>
+
 
         </form>
 
@@ -138,17 +176,3 @@
 
 </body>
 </html>
-
-<?php
-
-
-// Search handling logic.
-
-if (isset($_POST['query'])) {
-
-    echo '<script type="text/javascript">alert("Need to implement searching!");</script>';
-
-}
-
-
-?>
