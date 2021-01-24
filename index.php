@@ -137,11 +137,37 @@
 
                 if (isset($_POST['query'])) {
 
-                    $termFound = false;
+                    // ----
+                    // Database indexing and retrieval
+                    // yet to be implemented.
+                    // ----
+
+                    // require 'config_production.inc.php';
+
+                    // // Database credentials.
+                    // require 'config_development.inc.php';
+
+
+                    // // Connection variable.
+                    // $conn = new mysqli($server, $username, $password, $db);
+
+                    // $res = $conn->query("SELECT * FROM term_index WHERE term_name='" . $_POST['query'] . "';");
+
+                    // $count = mysqli_num_rows($res);
+
+                    // $termFound = ($count != 0);
                     
                     if ($termFound) {
 
+                        printf('<div class="row" id="searchResult">
+                        
+                            <div class="col">
+                                    
+                                <p id="result">%s found.</p>
+            
+                            </div>
 
+                        </div>', $_POST['query']);
                         
 
 
